@@ -26,16 +26,31 @@
     
 #     return answer
 
+# def solution(s):
+#     number_list = s.split() # 입력문자 공백으로 구분해 리스트
+#     pop_memory = 0
+#     answer = 0
+    
+#     while number_list :
+#         if number_list[0] == 'Z':
+#             answer -= int(pop_memory, 10)
+#         else :
+#             pop_memory = number_list.pop(0)
+#             answer += int(pop_memory, 10)
+    
+#     return answer
+
 def solution(s):
     number_list = s.split() # 입력문자 공백으로 구분해 리스트
-    pop_memory = 0
+    pop_memory = 0 # pop한 데이터 저장 공간
     answer = 0
     
-    while number_list :
+    while number_list : # list가 빌때까지 반복
         if number_list[0] == 'Z':
-            answer -= int(pop_memory, 10)
+            number_list.pop(0)
+            answer -= int(pop_memory, 10) # 이전에 pop한 값 뺴주기
         else :
-            pop_memory = number_list.pop(0)
+            pop_memory = number_list.pop(0) # 일단 정수면 더하기
             answer += int(pop_memory, 10)
     
     return answer
