@@ -20,7 +20,7 @@ def solution(num, total):
 '''
 
 # def solution(num, total):
-#     return [(total - (num * (num - 1) // 2)) // num + i for i in range(num)] # 오직 리스트 컴프리헨션과 계산 만을 사용한 코드
+#     return [(total - (num * (num - 1) // 2)) // num + i for i in range(num)] # 오직 리스트 컴프리헨션과 계산만을 사용한 코드
 # (total - (num * (num - 1) // 2)) // num 이 부분이 처음 시작 부분을 구하는 공식인 것 같다.
 
 # def solution(num, total):
