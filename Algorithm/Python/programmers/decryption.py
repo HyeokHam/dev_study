@@ -24,3 +24,7 @@ def solution(cipher, code):
 #     return answer
 
 # 유사한 코드 눈여결 볼 건 range의 start가 code인 것, index가 0부터 시작이므로 answer += cipher[i-1]인 것
+
+cipher = input()
+code = int(input())
+print(solution(cipher=cipher, code=code))
