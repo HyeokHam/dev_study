@@ -9,7 +9,7 @@ def solution(order):
 # def solution(order):
 #     return sum(map(lambda x: str(order).count(str(x)), [3, 6, 9]))
 
-# 람다식을 잘 쓰면 이런 한줄 코딩이 가능함..
+# 람다식을 잘 쓰면 이런 한 줄 코딩이 가능함..
 # map(function, iterable) = 두 번째 인자로 들어온 반복 가능한 자료형을 첫 번째 인자로 들어온 함수에 하나씩 집어넣어 수행
 
 # def solution(order):
