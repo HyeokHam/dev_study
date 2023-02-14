@@ -14,7 +14,7 @@ def solution(i, j, k):
 # def solution(i, j, k):
 #     return sum(map(lambda v: str(v).count(str(k)), range(i, j+1)))
 
-# 위와 똑같은 방식 단 map과 lambda 함수를 이용해서 
+# 위와 똑같은 방식 단 map과 lambda 함수를 이용해서 모두 더하는 방식
 
 i, j, k = map(int, input().split())
 print(solution(i=i, j=j, k=k))
