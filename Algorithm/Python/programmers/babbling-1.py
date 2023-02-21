@@ -8,5 +8,8 @@ def solution(babbling):
             
     return answer
 
+# 정규표현식도 따로 공부해서 정리 해야할 필요가 있음
+# 나중에 다른 사람 풀이도 확인해서 정리 해놓자...
+
 babbling = input().split()
 print(solution(babbling=babbling))
