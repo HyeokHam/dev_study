@@ -12,7 +12,7 @@ def solution(my_string):
 #     return ''.join(reversed(my_string))
 
 # reversed() 함수를 사용한 방법
-# reversed() 로 반환된 값은 리스트 이므로 ''.join()을 사용하여 문자열로 만들어줌
+# reversed() 로 반환된 값은 reversed 객체 이므로 ''.join()을 사용하여 문자열로 만들어줌
 
 # def solution(my_string):
 #     answer = ''
