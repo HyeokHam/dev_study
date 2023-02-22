@@ -21,7 +21,7 @@ def solution(my_string):
 #     return answer
 
 # for loop를 사용한 방법
-# 여기서 문자열을 더하면 뒤에 붙는 것이 아닌 앞에 붙는다. (스택, 큐 같이 생각하면 편함, 사실 상 리스트의 구조가 그렇기도 하고..) 
+# c+answer 이기 때문에 문자가 뒤에 붙는 것이 아닌 앞에 붙는다.
 
 my_string = input()
 print(solution(my_string=my_string))
