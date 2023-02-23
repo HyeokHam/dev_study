@@ -14,6 +14,7 @@ def solution(my_string):
 # 3. string.isnumeric() : 숫자값 표현에 해당하는 문자열이면 True
 # 1번은 단지 int형만 판별하고, 2번은 숫자의 형태(예를 들어 0.2342와 같은)도 판별하고, 3번은 숫자값 표현(예를 들면 1/2와 같은)도 판별한다.
 # 즉 isdecimal()의 기능이 isdigit()에 포함되어 있고 isdigit()의 기능이 isnumeric()에 포함되어 있다.
+# 참고 : [[Python] 문자열인지 숫자인지 판별하기] https://cotak.tistory.com/137
 
 # import re
 
@@ -42,3 +43,6 @@ def solution(my_string):
 # 2. 반복문이나 if문에서 아무 동작을 하지 않고 넘기는 용도로 사용
 # 3. 프로그램 실행 중 예외가 발생했을 때 예외를 의도적으로 무시하기 위해 사용 (예외를 넘기기 위해 사용)
 # 즉 pass의 의미가 기본적으로 넘긴다기 때문에 그 의미와 하는 일이 같다고 보면된다.
+
+my_string = input()
+print(solution(my_string=my_string))
