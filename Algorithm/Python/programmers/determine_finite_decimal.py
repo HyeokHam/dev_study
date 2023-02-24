@@ -67,3 +67,6 @@ def solution(a, b):
 #     return answer
 
 # 위와 같은 방식의 코드이다. 대신 기약분수를 구하는 과정을 gcd를 사용하지 않고 이중반복문을 통해 직접 구했다.
+
+a, b = map(int, input().split())
+print(solution(a=a, b=b))
