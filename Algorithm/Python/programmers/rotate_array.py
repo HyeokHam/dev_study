@@ -8,6 +8,8 @@ def solution(numbers, direction):
         queue.rotate(-1)
     return list(queue)
 
+# deque에 관해서는 string_push.py의 주석 참조
+
 '''
 다른 사람 풀이
 '''
